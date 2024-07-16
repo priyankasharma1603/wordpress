@@ -1,0 +1,214 @@
+/*
+Theme Name: SmartTrack FSE
+Theme URI: https://gracethemes.com/themes/free-cargo-company-wordpress-theme/
+Author: Grace Themes
+Author URI: https://gracethemes.com/
+Description: The SmartTrack FSE is free cargo company WordPress theme for shipping businesses, couriers companies, postal services, cargo, transport agencies, transportation and logistics, delivery and packaging, online tracking and similar businesses. This multipurpose theme is also suitable for corporate, business, construction, hotel, restaurant, flower shop, travel and tour website, coaching, education, sports, medical, doctor, gym, fitness, modelling and wedding. It is highly appealing and comes with a modernistic professional design that can perfectly complement your cargo or shipment business. This free Cargo Company WordPress Theme comes with advanced blog settings. This theme comes integrated with multiple social media icons. Also, this option comes with an SEO optimization feature. Hence, if you use it for your business needs, your website can readily achieve a good website ranking in the Google search engine. Multiple SEO plugins such as Yoast SEO, RankMath, etc. Using SmartTrack FSE, you can readily amend changes in the free Cargo Company WordPress Theme without encountering any issues. As a full-site editing theme, you will not need expert coding skills to customize it. You can easily customize every aspect of it simply by tweaking or tuning codes. Demo: https://gracethemesdemo.com/smarttrack/
+
+Version: 1.1
+License: GNU General Public License version 2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: smarttrack-fse
+Requires PHP:  5.6
+Tested up to: 6.5
+Tags:blog, news, photography, one-column, two-columns, right-sidebar, block-styles, custom-colors, editor-style, custom-background, custom-menu, featured-images, template-editing, full-site-editing, block-patterns,  threaded-comments, wide-blocks, translation-ready
+SmartTrack FSE WordPress Theme has been created by Grace Themes(gracethemes.com), 2024.
+SmartTrack FSE WordPress Theme is released under the terms of GNU GPL
+*/
+body.page-template-front .site-main-header {  
+	width:100%; 
+	z-index:999;
+	background:transparent !important; 
+	position: absolute !important;
+}
+.site-main-header{  
+	background-color:#5c422a; 
+	position:relative !important;
+}
+.clear{ 
+	clear:both;
+}
+
+.logoBX{ 
+	position:relative;
+}
+.QuotColumn{ position:relative;}
+
+.wp-block-button.QuoteBtn{  padding:0px; position:absolute; right:0; bottom:-15px; box-shadow:-10px 0px 80px #CFCFCF;}
+.wp-block-button.QuoteBtn a { background:#d70007; color:#fff; padding:25px 30px 25px 15px;  }
+.wp-block-button.QuoteBtn a::before {content: ''; width: 0; height: 0; border-bottom: 81px solid #ff5e15; border-left: 35px solid transparent; position:absolute; left:-34px; top: 0px;}
+.wp-block-button.QuoteBtn a:hover{ color:#131730;}
+.wp-block-button.QuoteBtn a:hover::before{ border-bottom: 81px solid #b01e22;}
+
+
+/*dropdown menu background color*/
+.wp-block-navigation .has-child .wp-block-navigation__submenu-container{ background-color:#ffffff;}
+.wp-block-navigation .has-child .wp-block-navigation__submenu-container li{ border-bottom:1px solid #eee !important;}
+.wp-block-navigation__submenu-container.wp-block-navigation-submenu{ padding-top:30px !important}
+.wp-block-navigation__submenu-container.wp-block-navigation-submenu li ul{ padding-top:0 !important; left:100% !important; right:auto !important;}
+
+
+/* = Four Column Section 1 CSS
+----------------------------------------------- */
+.services-4col{ position:relative;text-align:center; }
+.services-4col .btn-4-col .wp-block-button__link{ background-color:transparent !important;}
+.services-4col .btn-4-col .wp-block-button__link:hover{ background-color:transparent !important;}
+.services-4col .wp-block-cover__inner-container,
+.services-4col .wp-block-cover__background.has-primary-background-color{ display:none !important;}
+.services-4col:hover .wp-block-cover__inner-container,
+.services-4col:hover .wp-block-cover__background.has-primary-background-color{ display:block !important;}
+.services-4col:hover .title-4-column{ background-color:#012142 !important; }
+
+
+/* = Welcome Section 2 CSS
+----------------------------------------------- */
+.welcomeLeft-Box{ position:relative;}
+.exp-orange-bx{ position:absolute; top:7%; right:20%; width:180px; height:180px; text-align:center;}
+
+
+
+
+/* = Beauty 4 image Boxes CSS
+----------------------------------------------- */
+.fse-image-stylish-BX{ position:relative; text-align:center;}
+.fse-image-stylish-BX .beauty-imageBX{ position:relative; overflow:hidden;  height:350px;}
+.fse-image-stylish-BX .beauty-imageBX::before {content:''; width: 90% !important; box-shadow: 0px 20px 100px 60px rgba(175, 105, 53, 3); position:absolute; bottom:0px; left:0px; z-index:9999; height:auto; border-radius: 15px !important;}
+.fse-image-stylish-BX .beauty-titleBX{ position:absolute; bottom:55px; text-align:left; padding-left:50px; z-index:9999; }
+.fse-image-stylish-BX .beauty-imageBX img{ width: 100%; transition: 0.5s all ease-in-out;}
+.fse-image-stylish-BX .beauty-imageBX:hover img{ transform: scale(1.2); }
+
+/* = Sidebar CSS
+----------------------------------------------- */
+.st-widgetBX ul.wp-block-latest-posts li{ margin-bottom:20px; min-height:80px;}
+.st-widgetBX ul.wp-block-latest-posts li a.wp-block-latest-posts__post-title{ margin-bottom:5px !important; display:block; line-height:20px;}
+
+
+/* = Blog page Design CSS
+----------------------------------------------- */
+ul.blog-list-style{ 
+	margin:0; 
+	padding:0; 
+}
+ul.blog-list-style li{ 
+	margin-bottom:25px; 
+	padding:30px;
+	border-radius:10px; 
+	display:flow-root; 
+	background-color:#f4f4f4;
+	border:1px solid #eeeeee;
+	
+}
+ul.blog-list-style li .blog-thumbx{ 
+	width:40%; 
+	float:left;
+	margin:0 35px 20px 0;
+}
+
+ul.blog-list-style li .blog-thumbx.wp-block-post-featured-image a,
+ul.blog-list-style li .blog-thumbx.wp-block-post-featured-image img{ height:auto;}
+
+/* = Contact Form 7 CSS
+----------------------------------------------- */
+.wpcf7{ 
+margin:30px 0 0;padding:0;
+}
+.wpcf7 input[type="text"], 
+.wpcf7 input[type="tel"], 
+.wpcf7 input[type="email"]{ 
+	width:40%;
+	border:1px solid #cccccc;
+	box-shadow:inset 1px 1px 2px #ccc;
+	color:#797979;
+	margin-bottom:0;
+	height:40px;
+	padding:0 15px;
+}	
+.wpcf7 textarea{
+	color:#797979;
+	margin-bottom:25px;
+	border:1px solid #cccccc;
+	box-shadow:inset 1px 1px 2px #ccc;
+	padding:10px;
+	width:60%;
+	height:160px;
+	font-size:12px;
+}
+.wpcf7 input[type="submit"]{
+	border-radius:40px;
+	font-weight:600;
+	font-size:16px;
+	cursor:pointer;
+	background-color:#60c19f;
+	padding:20px 40px;
+	color:#ffffff;
+	width:auto;
+	border:none;
+	text-transform:uppercase;
+}
+.wpcf7 input[type="submit"]:hover{
+	background-color:#101010;
+}
+
+/* = Footer CSS
+----------------------------------------------- */
+.site-footer{ 
+	position:relative;
+}
+.site-footer h3.wp-block-heading{ 
+	position:relative; 
+	padding-bottom:20px;
+}
+.site-footer h3.wp-block-heading::before{ 
+	position: absolute; 
+	content:''; 
+	bottom:0; 
+	left:0; 
+	width:50px; 
+	height:2px; 
+	background-color:#ff5f15
+}
+.site-footer .wp-block-social-links li:hover{ 
+	background-color:#ff5f15; 
+	color:#ffffff !important; 
+}
+ul.fs-footer-post{ 
+	margin:0; 
+	padding:0;
+}
+ul.fs-footer-post li{ 
+	list-style:none; 
+	margin-bottom:30px;
+}
+ul.fs-footer-post li .wp-block-latest-posts__featured-image{ 
+	margin-top:6px;
+}
+ul.fs-footer-post li .wp-block-latest-posts__featured-image img{ 
+	border-radius:10px;
+}
+ul.fs-footer-post li .wp-block-latest-posts__post-title{ 
+	margin-bottom:15px; 
+	display:block; 
+	line-height:22px;
+}
+ul.fs-footer-post li .wp-block-latest-posts__post-title:hover{ 
+	color:#8cc73e;
+}
+footer.wp-block-template-part{ 
+	margin-block-start:0 !important
+}
+
+.Footer-QuickLinks{ 
+	list-style:none !important; 
+	padding:0 !important;
+}
+.Footer-QuickLinks li{ 
+	list-style:none !important; 
+	padding:5px 0 5px 0 !important;
+}
+/*.Footer-QuickLinks li::marker { 
+	content: ' > ';  
+	font-size: 16px;
+}*/
+.Footer-QuickLinks li a:hover{ 
+	text-decoration:none; 
+}
